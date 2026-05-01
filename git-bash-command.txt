@@ -151,3 +151,19 @@ remote: Resolving deltas: 100% (3/3), done.
 To https://github.com/readulislamtamim/git-practice-readul.git
  * [new branch]      main -> main
 branch 'main' set up to track 'origin/main'.
+
+user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/git-practice-readul (main)
+$ git add .
+
+user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/git-practice-readul (main)
+$ git commit -m "Improve README formatting"
+[main 2bfcf4e] Improve README formatting
+ 2 files changed, 63 insertions(+), 2 deletions(-)
+
+user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/git-practice-readul (main)
+$ git add .
+
+user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/git-practice-readul (main)
+$ git commit -m "Add multiply function"
+[main 25659ce] Add multiply function
+ 2 files changed, 6 insertions(+), 2 deletions(-)
