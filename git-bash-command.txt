@@ -175,3 +175,43 @@ user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/
 $ git commit -m "Update project description"
 [main f0762df] Update project description
  2 files changed, 23 insertions(+)
+
+
+user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/git-practice-readul (main)
+$ git checkout -b feature/error-handling
+Switched to a new branch 'feature/error-handling'
+
+user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/git-practice-readul (feature/error-handling)
+$ git add .
+
+user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/git-practice-readul (feature/error-handling)
+$ git commit -m "Add error handling for division"
+[feature/error-handling 957ba17] Add error handling for division
+ 2 files changed, 14 insertions(+)
+
+user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/git-practice-readul (feature/error-handling)
+$ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/git-practice-readul (main)
+$ git merge feature/error-handling
+Updating f0762df..957ba17
+Fast-forward
+ git-bash-command.txt | 8 ++++++++
+ src/utils.py         | 6 ++++++
+ 2 files changed, 14 insertions(+)
+
+user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/git-practice-readul (main)
+$ git push
+Enumerating objects: 27, done.
+Counting objects: 100% (27/27), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (19/19), done.
+Writing objects: 100% (19/19), 2.68 KiB | 183.00 KiB/s, done.
+Total 19 (delta 7), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (7/7), completed with 2 local objects.
+To https://github.com/readulislamtamim/git-practice-readul.git
+   fcbf1e4..957ba17  main -> main
+
