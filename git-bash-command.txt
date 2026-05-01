@@ -96,3 +96,58 @@ $ git commit -m "Add gitignore file"
 [master 6a7a1b6] Add gitignore file
  3 files changed, 84 insertions(+)
 
+user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/git-practice-readul (master)
+$ git checkout -b feature/calculator
+Switched to a new branch 'feature/calculator'
+
+user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/git-practice-readul (feature/calculator)
+$ git add .
+
+user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/git-practice-readul (feature/calculator)
+$ git commit -m "Add basic calculator functions"
+[feature/calculator fcbf1e4] Add basic calculator functions
+ 3 files changed, 36 insertions(+), 1 deletion(-)
+
+user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/git-practice-readul (feature/calculator)
+$ git checkout main
+error: pathspec 'main' did not match any file(s) known to git
+
+user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/git-practice-readul (feature/calculator)
+$ git checkout master
+Switched to branch 'master'
+
+user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/git-practice-readul (master)
+$ git merge feature/calculator
+Updating 6a7a1b6..fcbf1e4
+Fast-forward
+ git-bash-command.txt | 23 +++++++++++++++++++++++
+ src/main.py          |  8 +++++++-
+ src/utils.py         |  6 ++++++
+ 3 files changed, 36 insertions(+), 1 deletion(-)
+
+user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/git-practice-readul (master)
+$ git brach -d feature/calculator
+git: 'brach' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+
+
+user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/git-practice-readul (main)
+$ git remote add origin https://github.com/readulislamtamim/git-practice-readul.git
+
+user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/git-practice-readul (main)
+$ git branch -M main
+
+user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/git-practice-readul (main)
+$ git push -u origin main
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (18/18), 2.05 KiB | 110.00 KiB/s, done.
+Total 18 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/readulislamtamim/git-practice-readul.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
