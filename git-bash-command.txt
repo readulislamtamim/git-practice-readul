@@ -73,3 +73,26 @@ $ cd ..
 user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/git-practice-readul (master)
 $ ls
 README.md  docs/  src/
+
+user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/git-practice-readul (master)
+$ git add .
+
+user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/git-practice-readul (master)
+$ git commit -m "Initial commit: project structure and basic program"
+[master (root-commit) 1187a83] Initial commit: project structure and basic program
+ 6 files changed, 5 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 docs/project-description.md
+ create mode 100644 git-bash-command.txt
+ create mode 100644 src/main.py
+ create mode 100644 src/utils.py
+
+user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/git-practice-readul (master)
+$ git add .gitignore
+
+user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/git-practice-readul (master)
+$ git commit -m "Add gitignore file"
+[master 6a7a1b6] Add gitignore file
+ 3 files changed, 84 insertions(+)
+
