@@ -167,3 +167,11 @@ user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/
 $ git commit -m "Add multiply function"
 [main 25659ce] Add multiply function
  2 files changed, 6 insertions(+), 2 deletions(-)
+
+user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/git-practice-readul (main)
+$ git add .
+
+user@Taseen MINGW64 /h/My Drive/Data Science/OML/05_Practice_Notebooks/Module-8/git-practice-readul (main)
+$ git commit -m "Update project description"
+[main f0762df] Update project description
+ 2 files changed, 23 insertions(+)
